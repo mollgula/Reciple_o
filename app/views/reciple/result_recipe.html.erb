@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>なんたらかんたら</title>
+    <link rel="stylesheet" href="stylesheets/normalize.css">
+  </head>
+  <body>
+    <h2>検索結果</h2>
+    <div id="recipe_info">
+      <div class="rakuten_info">
+        <h3>楽天レシピ</h3>
+        <ul>
+        <%  5.times do |i| %>
+        <li><%= link_to(image_tag(@imgs_box[i]) + @titles_box[i], @urls_box[i], :target=>["_blank"]) %></li>
+        <% end %>
+      </div>
+      <div class="cookpad_info">
+        <h3>Cookpad</h3>
+        <ul>
+        <%  4.times do |i| %>
+        <li><%= link_to(image_tag(@imgs_box2[i]) + @titles_box2[i], @urls_box2[i], :target=>["_blank"]) %></li>
+        <% end %>
+      </div>
+      <div class="kurashiru_info">
+        <h3>kurashiru</h3>
+        <ul>
+        <%  5.times do |i| %>
+        <li><%= link_to(image_tag(@imgs_box3[i]) + @titles_box3[i], @urls_box3[i], :target=>["_blank"]) %></li>
+        <% end %>
+      </div>
+      <div class="nadia_info">
+        <h3>Nadia</h3>
+        <ul>
+        <%  4.times do |i| %>
+        <li><%= link_to(image_tag(@imgs_box4[i]) + @titles_box4[i], @urls_box4[i], :target=>["_blank"]) %></li>
+        <% end %>
+      </div>
+    </ul>
+  </body>
+</html>

@@ -1,0 +1,1432 @@
+Started GET "/" for 127.0.0.1 at 2017-12-21 22:54:47 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/satoukai/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/satoukai/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (3.9ms)
+Completed 200 OK in 285ms (Views: 10.4ms)
+
+
+Started GET "/search_recipe" for 127.0.0.1 at 2017-12-21 22:55:07 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/search_recipe"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `call'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/search_recipe" for 127.0.0.1 at 2017-12-21 23:00:46 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/search_recipe"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `call'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/search_recipe" for 127.0.0.1 at 2017-12-21 23:01:18 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/search_recipe"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `call'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/search_recipe2" for 127.0.0.1 at 2017-12-21 23:01:22 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/search_recipe2"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `call'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/reciple/search_recipe2" for 127.0.0.1 at 2017-12-21 23:01:50 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/reciple/search_recipe2"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `call'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-21 23:05:00 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/reciple/search_recipe"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `call'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-21 23:06:13 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/reciple/search_recipe"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `call'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/reciple/search_recipe2" for 127.0.0.1 at 2017-12-21 23:06:32 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/reciple/search_recipe2"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `call'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/reciple/index" for 127.0.0.1 at 2017-12-21 23:10:51 +0900
+  
+SyntaxError (/Users/satoukai/Desktop/reciple/app/controllers/reciple_controller.rb:167: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/reciple_controller.rb:167: syntax error, unexpected keyword_end, expecting end-of-input
+Started GET "/reciple/" for 127.0.0.1 at 2017-12-21 23:11:14 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/reciple"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `call'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-21 23:11:46 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/reciple/search_recipe"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `call'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/reciple/search_recipe2" for 127.0.0.1 at 2017-12-21 23:12:17 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/reciple/search_recipe2"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `call'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/recipe/join" for 127.0.0.1 at 2017-12-21 23:13:10 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/recipe/join"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `call'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/reciple/food_join" for 127.0.0.1 at 2017-12-21 23:13:26 +0900
+  
+SyntaxError (/Users/satoukai/Desktop/reciple/app/controllers/reciple_controller.rb:167: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/reciple_controller.rb:167: syntax error, unexpected keyword_end, expecting end-of-input
+Started GET "/reciple/food_join" for 127.0.0.1 at 2017-12-21 23:14:24 +0900
+  
+SyntaxError (/Users/satoukai/Desktop/reciple/app/controllers/reciple_controller.rb:167: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/reciple_controller.rb:167: syntax error, unexpected keyword_end, expecting end-of-input
+Started GET "/reciple/food_join" for 127.0.0.1 at 2017-12-21 23:15:24 +0900
+Processing by RecipleController#food_join as HTML
+Completed 500 Internal Server Error in 5ms
+
+
+  
+ActionView::MissingTemplate (Missing template reciple/recipe_search, application/recipe_search with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/satoukai/Desktop/reciple/app/views"
+):
+  
+app/controllers/reciple_controller.rb:88:in `food_join'
+Started GET "/reciple/food_join" for 127.0.0.1 at 2017-12-21 23:16:40 +0900
+  
+SyntaxError (/Users/satoukai/Desktop/reciple/app/controllers/reciple_controller.rb:91: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/reciple_controller.rb:91: syntax error, unexpected keyword_end, expecting end-of-input
+Started GET "/" for 127.0.0.1 at 2017-12-21 23:18:36 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/satoukai/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/satoukai/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (3.0ms)
+Completed 200 OK in 9ms (Views: 5.5ms)
+
+
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-21 23:24:38 +0900
+  
+SyntaxError (/Users/satoukai/Desktop/reciple/app/controllers/reciple_controller.rb:167: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/reciple_controller.rb:167: syntax error, unexpected keyword_end, expecting end-of-input
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-21 23:24:59 +0900
+  
+SyntaxError (/Users/satoukai/Desktop/reciple/app/controllers/reciple_controller.rb:167: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/reciple_controller.rb:167: syntax error, unexpected keyword_end, expecting end-of-input
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-21 23:25:30 +0900
+  
+SyntaxError (/Users/satoukai/Desktop/reciple/app/controllers/reciple_controller.rb:167: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/reciple_controller.rb:167: syntax error, unexpected keyword_end, expecting end-of-input
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-21 23:27:25 +0900
+  
+SyntaxError (/Users/satoukai/Desktop/reciple/app/controllers/reciple_controller.rb:91: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/reciple_controller.rb:91: syntax error, unexpected keyword_end, expecting end-of-input
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-21 23:28:36 +0900
+  
+SyntaxError (/Users/satoukai/Desktop/reciple/app/controllers/reciple_controller.rb:167: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/reciple_controller.rb:167: syntax error, unexpected keyword_end, expecting end-of-input
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-21 23:28:58 +0900
+  
+LoadError (Unable to autoload constant RecipleController, expected /Users/satoukai/Desktop/reciple/app/controllers/reciple_controller.rb to define it):
+  
+activesupport (5.1.4) lib/active_support/dependencies.rb:511:in `load_missing_constant'
+activesupport (5.1.4) lib/active_support/dependencies.rb:202:in `const_missing'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:269:in `const_get'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:269:in `block in constantize'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `each'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `inject'
+activesupport (5.1.4) lib/active_support/inflector/methods.rb:267:in `constantize'
+activesupport (5.1.4) lib/active_support/dependencies.rb:582:in `get'
+activesupport (5.1.4) lib/active_support/dependencies.rb:613:in `constantize'
+actionpack (5.1.4) lib/action_dispatch/http/request.rb:85:in `controller_class_for'
+actionpack (5.1.4) lib/action_dispatch/http/parameters.rb:99:in `binary_params_for?'
+actionpack (5.1.4) lib/action_dispatch/http/parameters.rb:90:in `set_binary_encoding'
+actionpack (5.1.4) lib/action_dispatch/http/parameters.rb:67:in `path_parameters='
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:48:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `call'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-21 23:29:22 +0900
+  
+AbstractController::ActionNotFound (The action 'recipe_search' could not be found for RecipleController):
+  
+actionpack (5.1.4) lib/abstract_controller/base.rb:119:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `call'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-21 23:29:52 +0900
+  
+AbstractController::ActionNotFound (The action 'recipe_search' could not be found for RecipleController):
+  
+actionpack (5.1.4) lib/abstract_controller/base.rb:119:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `call'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-21 23:29:54 +0900
+  
+AbstractController::ActionNotFound (The action 'recipe_search' could not be found for RecipleController):
+  
+actionpack (5.1.4) lib/abstract_controller/base.rb:119:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `call'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-21 23:34:11 +0900
+  
+SyntaxError (/Users/satoukai/Desktop/reciple/app/controllers/reciple_controller.rb:167: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/reciple_controller.rb:167: syntax error, unexpected keyword_end, expecting end-of-input
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-21 23:38:29 +0900
+  
+SyntaxError (/Users/satoukai/Desktop/reciple/app/controllers/reciple_controller.rb:160: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/reciple_controller.rb:160: syntax error, unexpected keyword_end, expecting end-of-input
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-21 23:38:41 +0900
+  
+AbstractController::ActionNotFound (The action 'recipe_search' could not be found for RecipleController):
+  
+actionpack (5.1.4) lib/abstract_controller/base.rb:119:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `call'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-21 23:38:50 +0900
+  
+SyntaxError (/Users/satoukai/Desktop/reciple/app/controllers/reciple_controller.rb:160: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/reciple_controller.rb:160: syntax error, unexpected keyword_end, expecting end-of-input
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-21 23:39:41 +0900
+  
+SyntaxError (/Users/satoukai/Desktop/reciple/app/controllers/reciple_controller.rb:160: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/reciple_controller.rb:160: syntax error, unexpected keyword_end, expecting end-of-input
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-21 23:42:37 +0900
+  
+SyntaxError (/Users/satoukai/Desktop/reciple/app/controllers/reciple_controller.rb:160: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/reciple_controller.rb:160: syntax error, unexpected keyword_end, expecting end-of-input
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-21 23:43:14 +0900
+  
+SyntaxError (/Users/satoukai/Desktop/reciple/app/controllers/reciple_controller.rb:79: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/reciple_controller.rb:79: syntax error, unexpected keyword_end, expecting end-of-input
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-21 23:43:30 +0900
+  
+SyntaxError (/Users/satoukai/Desktop/reciple/app/controllers/reciple_controller.rb:78: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/reciple_controller.rb:78: syntax error, unexpected keyword_end, expecting end-of-input
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-21 23:44:46 +0900
+  
+SyntaxError (/Users/satoukai/Desktop/reciple/app/controllers/reciple_controller.rb:78: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/reciple_controller.rb:78: syntax error, unexpected keyword_end, expecting end-of-input
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-22 00:02:24 +0900
+  
+SyntaxError (/Users/satoukai/Desktop/reciple/app/controllers/reciple_controller.rb:78: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/reciple_controller.rb:78: syntax error, unexpected keyword_end, expecting end-of-input
+Started GET "/" for 127.0.0.1 at 2017-12-22 00:02:27 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/satoukai/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/satoukai/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (3.3ms)
+Completed 200 OK in 11ms (Views: 6.7ms)
+
+
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-22 00:10:35 +0900
+  
+SyntaxError (/Users/satoukai/Desktop/reciple/app/controllers/reciple_controller.rb:78: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/reciple_controller.rb:78: syntax error, unexpected keyword_end, expecting end-of-input
+Started GET "/reciple/" for 127.0.0.1 at 2017-12-22 00:10:41 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/reciple"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `call'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-22 00:11:02 +0900
+  
+SyntaxError (/Users/satoukai/Desktop/reciple/app/controllers/reciple_controller.rb:78: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/reciple_controller.rb:78: syntax error, unexpected keyword_end, expecting end-of-input
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-22 00:14:12 +0900
+  
+SyntaxError (/Users/satoukai/Desktop/reciple/app/controllers/reciple_controller.rb:160: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/reciple_controller.rb:160: syntax error, unexpected keyword_end, expecting end-of-input
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-22 00:14:28 +0900
+  
+SyntaxError (/Users/satoukai/Desktop/reciple/app/controllers/reciple_controller.rb:160: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+app/controllers/reciple_controller.rb:160: syntax error, unexpected keyword_end, expecting end-of-input
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-22 00:16:51 +0900
+Processing by RecipleController#search_recipe as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 9ms
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"recipe_search2", :controller=>"reciple"}):
+    1: <div class="content">
+    2:   <div id="search-box">
+    3:     <p>検索してね</p>
+    4:     <%= form_tag(action: "recipe_search2") do %>
+    5:       <%= text_field_tag(
+    6:           :search, nil,
+    7:           id: "recipe_search",
+  
+app/views/reciple/search_recipe.html.erb:4:in `_app_views_reciple_search_recipe_html_erb__1505612866827945345_70266023965160'
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-22 00:20:55 +0900
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:4:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-22 00:21:11 +0900
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:4:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-22 00:21:28 +0900
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:4:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-22 00:22:55 +0900
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:4:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-22 00:24:43 +0900
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:4:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-22 00:26:23 +0900
+Processing by RecipleController#search_recipe as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 8ms
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"search", :controller=>"reciple"}):
+    1: <div class="content">
+    2:   <div id="search-box">
+    3:     <p>検索してね</p>
+    4:     <%= form_tag(action: "search") do %>
+    5:       <%= text_field_tag(
+    6:           :search, nil,
+    7:           id: "recipe_search",
+  
+app/views/reciple/search_recipe.html.erb:4:in `_app_views_reciple_search_recipe_html_erb__1505612866827945345_70266052997520'
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-22 00:27:33 +0900
+Processing by RecipleController#search_recipe as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (4.2ms)
+Completed 500 Internal Server Error in 10ms
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"food_join", :controller=>"reciple"}):
+    15: <div class="content">
+    16:   <div id="search-box">
+    17:     <p>よく食べるもの</p>
+    18:       <%= form_tag(action: "food_join") do %>
+    19:         <%= text_field_tag(
+    20:           :search, nil,
+    21:           id: "recipe_search",
+  
+app/views/reciple/search_recipe.html.erb:18:in `_app_views_reciple_search_recipe_html_erb__1505612866827945345_70266065307240'
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-22 00:30:46 +0900
+Processing by RecipleController#search_recipe as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (3.6ms)
+Completed 500 Internal Server Error in 9ms
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"join_search", :controller=>"reciple"}):
+    29: 
+    30: <div class="">
+    31:   <ul>
+    32:     <li><%= link_to $join, :action => "join_search" %></li>
+    33:   </ul>
+    34: </div>
+  
+app/views/reciple/search_recipe.html.erb:32:in `_app_views_reciple_search_recipe_html_erb__1505612866827945345_70266024754600'
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-22 00:33:26 +0900
+Processing by RecipleController#search_recipe as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 1309ms (Views: 1307.3ms)
+
+
+Started POST "/reciple/recipe_search2" for 127.0.0.1 at 2017-12-22 00:33:38 +0900
+Processing by RecipleController#recipe_search2 as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bOC1RWX/DwuJ60bPGG3WXEuvbEXAzLfjqA3cyQJgQAduY0jDP+rNWDIVPsysHmYD2cAcg7q0SQnY++peh9zrCQ==", "keyname"=>"カレー"}
+  Rendering reciple/result_recipe.html.erb within layouts/application
+  Rendered reciple/result_recipe.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 2862ms (Views: 33.7ms)
+
+
+Started GET "/reciple/stylesheets/normalize.css" for 127.0.0.1 at 2017-12-22 00:33:41 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/reciple/stylesheets/normalize.css"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `call'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-22 00:40:14 +0900
+Processing by RecipleController#search_recipe as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 7ms
+
+
+  
+SyntaxError (/Users/satoukai/Desktop/reciple/app/views/reciple/search_recipe.html.erb:31: syntax error, unexpected keyword_do, expecting keyword_end
+'.freeze; $join_box do |join| 
+                      ^
+/Users/satoukai/Desktop/reciple/app/views/reciple/search_recipe.html.erb:35: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  
+app/views/reciple/search_recipe.html.erb:31: syntax error, unexpected keyword_do, expecting keyword_end
+app/views/reciple/search_recipe.html.erb:35: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-22 00:42:12 +0900
+Processing by RecipleController#search_recipe as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 7ms
+
+
+  
+SyntaxError (/Users/satoukai/Desktop/reciple/app/views/reciple/search_recipe.html.erb:31: syntax error, unexpected keyword_do, expecting keyword_end
+'.freeze; $join_box do |join| 
+                      ^
+/Users/satoukai/Desktop/reciple/app/views/reciple/search_recipe.html.erb:35: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  
+app/views/reciple/search_recipe.html.erb:31: syntax error, unexpected keyword_do, expecting keyword_end
+app/views/reciple/search_recipe.html.erb:35: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-22 00:44:44 +0900
+Processing by RecipleController#search_recipe as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 7ms
+
+
+  
+SyntaxError (/Users/satoukai/Desktop/reciple/app/views/reciple/search_recipe.html.erb:31: syntax error, unexpected keyword_do, expecting keyword_end
+'.freeze; $join_box do |join| 
+                      ^
+/Users/satoukai/Desktop/reciple/app/views/reciple/search_recipe.html.erb:35: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  
+app/views/reciple/search_recipe.html.erb:31: syntax error, unexpected keyword_do, expecting keyword_end
+app/views/reciple/search_recipe.html.erb:35: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-22 00:46:47 +0900
+Processing by RecipleController#search_recipe as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 27ms
+
+
+  
+SyntaxError (/Users/satoukai/Desktop/reciple/app/views/reciple/search_recipe.html.erb:31: syntax error, unexpected keyword_do, expecting keyword_end
+'.freeze; $join_box do |join| 
+                      ^
+/Users/satoukai/Desktop/reciple/app/views/reciple/search_recipe.html.erb:35: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  
+app/views/reciple/search_recipe.html.erb:31: syntax error, unexpected keyword_do, expecting keyword_end
+app/views/reciple/search_recipe.html.erb:35: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-22 00:47:10 +0900
+Processing by RecipleController#search_recipe as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 27ms (Views: 25.5ms)
+
+
+Started POST "/reciple/food_join" for 127.0.0.1 at 2017-12-22 00:47:17 +0900
+Processing by RecipleController#food_join as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aWC8PnFIKxLCOc94Akenl5pdNDCS70IsIlvgRPOR8fVr40G4K13pQXnHt3u2NBfICDJE9uiXvMZSrdbTdi1a+w==", "keyname"=>"なす"}
+Completed 500 Internal Server Error in 3ms
+
+
+  
+ActionView::MissingTemplate (Missing template reciple/recipe_search, application/recipe_search with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/satoukai/Desktop/reciple/app/views"
+):
+  
+app/controllers/reciple_controller.rb:82:in `food_join'
+Started GET "/reciple/food_join" for 127.0.0.1 at 2017-12-22 00:47:44 +0900
+Processing by RecipleController#food_join as HTML
+Completed 500 Internal Server Error in 5ms
+
+
+  
+ActionView::MissingTemplate (Missing template reciple/recipe_search, application/recipe_search with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/satoukai/Desktop/reciple/app/views"
+):
+  
+app/controllers/reciple_controller.rb:82:in `food_join'
+Started POST "/reciple/food_join" for 127.0.0.1 at 2017-12-22 00:47:50 +0900
+Processing by RecipleController#food_join as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aWC8PnFIKxLCOc94Akenl5pdNDCS70IsIlvgRPOR8fVr40G4K13pQXnHt3u2NBfICDJE9uiXvMZSrdbTdi1a+w==", "keyname"=>"なす"}
+Completed 500 Internal Server Error in 4ms
+
+
+  
+ActionView::MissingTemplate (Missing template reciple/recipe_search, application/recipe_search with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/satoukai/Desktop/reciple/app/views"
+):
+  
+app/controllers/reciple_controller.rb:82:in `food_join'
+Started GET "/reciple/food_join" for 127.0.0.1 at 2017-12-22 00:48:09 +0900
+Processing by RecipleController#food_join as HTML
+Completed 406 Not Acceptable in 47ms
+
+
+  
+ActionController::UnknownFormat (RecipleController#food_join is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.1.4) lib/action_controller/metal/implicit_render.rb:53:in `default_render'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+actionpack (5.1.4) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.4) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.4) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.4) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.4) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.4) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.4) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.4) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.4) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `call'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-22 00:48:55 +0900
+Processing by RecipleController#search_recipe as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 26ms (Views: 24.7ms)
+
+
+Started POST "/reciple/food_join" for 127.0.0.1 at 2017-12-22 00:49:02 +0900
+Processing by RecipleController#food_join as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dgiXIsjI30m76qkPjVLJuPbN510PH1lZxDVnvWaOUXF0i2qkkt0dGgAU0Qw5IXnnZKKXm3Vnp7O0w1Eq4zL6fw==", "keyname"=>"なす"}
+Completed 500 Internal Server Error in 3ms
+
+
+  
+ActionView::MissingTemplate (Missing template reciple/recipe_search, application/recipe_search with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/satoukai/Desktop/reciple/app/views"
+):
+  
+app/controllers/reciple_controller.rb:82:in `food_join'
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-22 02:34:44 +0900
+Processing by RecipleController#search_recipe as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (3.6ms)
+Completed 500 Internal Server Error in 8ms
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"join_in", :controller=>"reciple"}):
+    29: 
+    30: <div class="">
+    31:   <ul>
+    32:     <li><%= link_to $join, :action => "join_in" %></li>
+    33:   </ul>
+    34: </div>
+  
+app/views/reciple/search_recipe.html.erb:32:in `_app_views_reciple_search_recipe_html_erb__1505612866827945345_70266097868340'
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-22 02:39:56 +0900
+Processing by RecipleController#search_recipe as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 39ms (Views: 35.4ms)
+
+
+Started POST "/reciple/food_join" for 127.0.0.1 at 2017-12-22 02:41:14 +0900
+Processing by RecipleController#food_join as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NnTmmrY5Nf19UJWVR5+D3Xqlt+iPabUKp1mG4zbSaxA09xsc7Cz3rsau7Zbz7DOC6MrHLvURS+DXr7B0s27AHg==", "keyname"=>""}
+Completed 500 Internal Server Error in 5ms
+
+
+  
+ActionView::MissingTemplate (Missing template reciple/recipe_search, application/recipe_search with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/satoukai/Desktop/reciple/app/views"
+):
+  
+app/controllers/reciple_controller.rb:85:in `food_join'
+Started POST "/reciple/food_join" for 127.0.0.1 at 2017-12-22 02:41:55 +0900
+Processing by RecipleController#food_join as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NnTmmrY5Nf19UJWVR5+D3Xqlt+iPabUKp1mG4zbSaxA09xsc7Cz3rsau7Zbz7DOC6MrHLvURS+DXr7B0s27AHg==", "keyname"=>""}
+Completed 500 Internal Server Error in 5ms
+
+
+  
+ActionView::MissingTemplate (Missing template reciple/recipe_search, application/recipe_search with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/satoukai/Desktop/reciple/app/views"
+):
+  
+app/controllers/reciple_controller.rb:85:in `food_join'
+Started GET "/" for 127.0.0.1 at 2017-12-22 11:41:27 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/satoukai/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/satoukai/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (11.2ms)
+Completed 200 OK in 26ms (Views: 15.8ms)
+
+
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-22 11:41:34 +0900
+Processing by RecipleController#search_recipe as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 10ms
+
+
+  
+SyntaxError (/Users/satoukai/Desktop/reciple/app/views/reciple/search_recipe.html.erb:31: syntax error, unexpected keyword_do, expecting keyword_end
+'.freeze;   @joins_box do |join| 
+                         ^
+/Users/satoukai/Desktop/reciple/app/views/reciple/search_recipe.html.erb:36: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  
+app/views/reciple/search_recipe.html.erb:31: syntax error, unexpected keyword_do, expecting keyword_end
+app/views/reciple/search_recipe.html.erb:36: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-22 11:43:56 +0900
+Processing by RecipleController#search_recipe as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 7ms
+
+
+  
+SyntaxError (/Users/satoukai/Desktop/reciple/app/views/reciple/search_recipe.html.erb:31: syntax error, unexpected keyword_do, expecting keyword_end
+'.freeze;   @joins_box do |join| 
+                         ^
+/Users/satoukai/Desktop/reciple/app/views/reciple/search_recipe.html.erb:36: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  
+app/views/reciple/search_recipe.html.erb:31: syntax error, unexpected keyword_do, expecting keyword_end
+app/views/reciple/search_recipe.html.erb:36: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-22 11:44:02 +0900
+Processing by RecipleController#search_recipe as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 9ms
+
+
+  
+SyntaxError (/Users/satoukai/Desktop/reciple/app/views/reciple/search_recipe.html.erb:31: syntax error, unexpected keyword_do, expecting keyword_end
+'.freeze;   @joins_box do |join| 
+                         ^
+/Users/satoukai/Desktop/reciple/app/views/reciple/search_recipe.html.erb:36: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  
+app/views/reciple/search_recipe.html.erb:31: syntax error, unexpected keyword_do, expecting keyword_end
+app/views/reciple/search_recipe.html.erb:36: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-22 11:45:56 +0900
+Processing by RecipleController#search_recipe as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 5ms
+
+
+  
+SyntaxError (/Users/satoukai/Desktop/reciple/app/views/reciple/search_recipe.html.erb:31: syntax error, unexpected keyword_do, expecting keyword_end
+'.freeze;   @joins_box do |join| 
+                         ^
+/Users/satoukai/Desktop/reciple/app/views/reciple/search_recipe.html.erb:36: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  
+app/views/reciple/search_recipe.html.erb:31: syntax error, unexpected keyword_do, expecting keyword_end
+app/views/reciple/search_recipe.html.erb:36: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-22 13:57:47 +0900
+Processing by RecipleController#search_recipe as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 6ms
+
+
+  
+SyntaxError (/Users/satoukai/Desktop/reciple/app/views/reciple/search_recipe.html.erb:30: syntax error, unexpected keyword_do, expecting keyword_end
+'.freeze; @joins_box do |join| 
+                       ^
+/Users/satoukai/Desktop/reciple/app/views/reciple/search_recipe.html.erb:34: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  
+app/views/reciple/search_recipe.html.erb:30: syntax error, unexpected keyword_do, expecting keyword_end
+app/views/reciple/search_recipe.html.erb:34: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2017-12-22 13:58:22 +0900
+Processing by RecipleController#search_recipe as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 30ms (Views: 27.8ms)
+
+
+Started POST "/reciple/recipe_search2" for 127.0.0.1 at 2017-12-22 14:00:27 +0900
+Processing by RecipleController#recipe_search2 as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4NkblTgTB7hiLeKPaWgSvPCBwNOvaPGUGasO6cbIpY7iWuYTYgbF69nTmozdG6LjYu6wFdUQD35pXTh+Q3QOgA==", "keyname"=>"すき焼き"}
+  Rendering reciple/result_recipe.html.erb within layouts/application
+  Rendered reciple/result_recipe.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 1418ms (Views: 16.4ms)
+
+
+Started GET "/reciple/stylesheets/normalize.css" for 127.0.0.1 at 2017-12-22 14:00:29 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/reciple/stylesheets/normalize.css"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `call'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/reciple/recipe_search2" for 127.0.0.1 at 2017-12-22 14:08:22 +0900
+Processing by RecipleController#recipe_search2 as HTML
+  Rendering reciple/result_recipe.html.erb within layouts/application
+  Rendered reciple/result_recipe.html.erb within layouts/application (6.6ms)
+Completed 500 Internal Server Error in 2429ms
+
+
+  
+ActionView::Template::Error (nil is not a valid asset source):
+    12:         <h3>楽天レシピ</h3>
+    13:         <ul>
+    14:         <%  5.times do |i| %>
+    15:         <li><%= link_to(image_tag(@imgs_box[i]) + @titles_box[i], @urls_box[i], :target=>["_blank"]) %></li>
+    16:         <% end %>
+    17:       </div>
+    18:       <div class="cookpad_info">
+  
+app/views/reciple/result_recipe.html.erb:15:in `block in _app_views_reciple_result_recipe_html_erb__3761749426309770386_70266082995960'
+app/views/reciple/result_recipe.html.erb:14:in `times'
+app/views/reciple/result_recipe.html.erb:14:in `_app_views_reciple_result_recipe_html_erb__3761749426309770386_70266082995960'
+app/controllers/reciple_controller.rb:80:in `recipe_search2'
+Started POST "/reciple/recipe_search2" for 127.0.0.1 at 2017-12-22 14:08:25 +0900
+Processing by RecipleController#recipe_search2 as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4NkblTgTB7hiLeKPaWgSvPCBwNOvaPGUGasO6cbIpY7iWuYTYgbF69nTmozdG6LjYu6wFdUQD35pXTh+Q3QOgA==", "keyname"=>"すき焼き"}
+  Rendering reciple/result_recipe.html.erb within layouts/application
+  Rendered reciple/result_recipe.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 1947ms (Views: 36.8ms)
+
+
+Started GET "/reciple/stylesheets/normalize.css" for 127.0.0.1 at 2017-12-22 14:08:27 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/reciple/stylesheets/normalize.css"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `call'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/reciple/food_join" for 127.0.0.1 at 2017-12-22 14:08:40 +0900
+Processing by RecipleController#food_join as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4NkblTgTB7hiLeKPaWgSvPCBwNOvaPGUGasO6cbIpY7iWuYTYgbF69nTmozdG6LjYu6wFdUQD35pXTh+Q3QOgA==", "keyname"=>"nasu"}
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 16ms (Views: 15.7ms)
+
+
+Started POST "/reciple/food_join" for 127.0.0.1 at 2017-12-22 14:08:45 +0900
+Processing by RecipleController#food_join as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4gbMHbfwzWct8tGuQYFPd5Ul4sJH/94IrpFhZTN2bBzghTGb7eUPNJYMqa318v8oB0qSBD2HIOLeZ1fytsrHEg==", "keyname"=>"nasu"}
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 18ms (Views: 17.7ms)
+
+

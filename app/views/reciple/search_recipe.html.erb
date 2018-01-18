@@ -1,0 +1,35 @@
+<div class="content">
+  <div id="search-box">
+    <p>検索してね</p>
+    <%= form_tag(action: "recipe_search2") do %>
+      <%= text_field_tag(
+          :search, nil,
+          id: "recipe_search",
+          name: "keyname",
+          placeholder: "食材名や料理名",
+          style: "width: 200px;"
+      )%>
+      <button title="検索" type="submit">検索</button>
+    <% end %>
+</div>
+<div class="content">
+  <div id="search-box">
+    <p>よく食べるもの</p>
+      <%= form_tag(action: "food_join") do %>
+        <%= text_field_tag(
+          :search, nil,
+          id: "recipe_search",
+          name: "keyname",
+          placeholder: "よく食べるもの",
+          style: "width: 200px;"
+        )%>
+        <button title="追加" type="submit">追加</button>
+        <% end %>
+</div>
+<div id="">
+<ul>
+  <% @joins_box do |join| %>
+  <li><%= join %></li>
+  <% end %>
+</ul>
+</div>

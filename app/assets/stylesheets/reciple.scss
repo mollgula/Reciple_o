@@ -1,0 +1,16 @@
+// Place all the styles related to the reciple controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+ul {
+    list-style: none;
+    text-decoration: none;
+  }
+
+  #recipe_info {
+    font-size: 12px;
+  }
+
+  #recipe_info img {
+    width: 100px;
+    height: auto;
+  }
