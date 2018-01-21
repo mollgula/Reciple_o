@@ -1430,3 +1430,941 @@ Processing by RecipleController#food_join as HTML
 Completed 200 OK in 18ms (Views: 17.7ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-01-18 10:55:21 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/satoukai/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/satoukai/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (4.6ms)
+Completed 200 OK in 281ms (Views: 10.7ms)
+
+
+Started GET "/fun/index" for 127.0.0.1 at 2018-01-18 10:55:25 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/fun/index"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `call'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2018-01-18 10:55:27 +0900
+Processing by RecipleController#search_recipe as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 8ms
+
+
+  
+SyntaxError (/Users/satoukai/Desktop/Reciple_git/app/views/reciple/search_recipe.html.erb:31: syntax error, unexpected keyword_do, expecting keyword_end
+'.freeze;   @joins_box do |join| 
+                         ^
+/Users/satoukai/Desktop/Reciple_git/app/views/reciple/search_recipe.html.erb:37: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  
+app/views/reciple/search_recipe.html.erb:31: syntax error, unexpected keyword_do, expecting keyword_end
+app/views/reciple/search_recipe.html.erb:37: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2018-01-18 10:55:52 +0900
+Processing by RecipleController#search_recipe as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 224ms (Views: 221.3ms)
+
+
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2018-01-18 10:56:17 +0900
+Processing by RecipleController#search_recipe as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 17ms (Views: 15.2ms)
+
+
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2018-01-18 10:56:20 +0900
+Processing by RecipleController#search_recipe as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 19ms (Views: 17.1ms)
+
+
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2018-01-18 10:56:28 +0900
+Processing by RecipleController#search_recipe as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 17ms (Views: 15.4ms)
+
+
+Started POST "/reciple/recipe_search2" for 127.0.0.1 at 2018-01-18 10:56:35 +0900
+Processing by RecipleController#recipe_search2 as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LoDkK/VOkbzv5WRyo1tujb5X7I8zoDs3gpMrKviD+sYsAxmtr1tT71QbHHEXKN7SLDicSUnYxd3yZR29fT9RyA==", "keyname"=>"カレー"}
+Started POST "/reciple/recipe_search2" for 127.0.0.1 at 2018-01-18 10:56:36 +0900
+Processing by RecipleController#recipe_search2 as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LoDkK/VOkbzv5WRyo1tujb5X7I8zoDs3gpMrKviD+sYsAxmtr1tT71QbHHEXKN7SLDicSUnYxd3yZR29fT9RyA==", "keyname"=>"カレー"}
+  Rendering reciple/result_recipe.html.erb within layouts/application
+  Rendered reciple/result_recipe.html.erb within layouts/application (2.1ms)
+  Rendering reciple/result_recipe.html.erb within layouts/application
+  Rendered reciple/result_recipe.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 6933ms (Views: 49.4ms)
+
+
+Completed 200 OK in 5728ms (Views: 38.3ms)
+
+
+Started GET "/reciple/stylesheets/normalize.css" for 127.0.0.1 at 2018-01-18 10:56:42 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/reciple/stylesheets/normalize.css"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `call'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2018-01-18 10:57:39 +0900
+Processing by RecipleController#search_recipe as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (4.1ms)
+Completed 500 Internal Server Error in 11ms
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"search", :controller=>"reciple"}):
+    10:   <div class="content">
+    11:     <div id="search-box">
+    12:       <p>検索してね</p>
+    13:       <%= form_tag(action: "search") do %>
+    14:         <%= text_field_tag(
+    15:             :search, nil,
+    16:             id: "recipe_search",
+  
+app/views/reciple/search_recipe.html.erb:13:in `_app_views_reciple_search_recipe_html_erb__1326434664061370153_70193843094220'
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2018-01-18 10:58:04 +0900
+Processing by RecipleController#search_recipe as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 8ms
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"search", :controller=>"reciple"}):
+    10:   <div class="content">
+    11:     <div id="search-box">
+    12:       <p>検索してね</p>
+    13:       <%= form_tag(action: "search") do %>
+    14:         <%= text_field_tag(
+    15:             :search, nil,
+    16:             id: "recipe_search",
+  
+app/views/reciple/search_recipe.html.erb:13:in `_app_views_reciple_search_recipe_html_erb__1326434664061370153_70193816319120'
+Started GET "/reciple/search_recipe" for 127.0.0.1 at 2018-01-18 10:58:25 +0900
+Processing by RecipleController#search_recipe as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 32ms (Views: 29.3ms)
+
+
+Started POST "/reciple/recipe_search2" for 127.0.0.1 at 2018-01-18 10:58:31 +0900
+  
+AbstractController::ActionNotFound (The action 'recipe_search2' could not be found for RecipleController):
+  
+actionpack (5.1.4) lib/abstract_controller/base.rb:119:in `process'
+actionview (5.1.4) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.4) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.4) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.4) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.4) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.4) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `call'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/reciple/food_join" for 127.0.0.1 at 2018-01-18 10:59:09 +0900
+Processing by RecipleController#food_join as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NbzVU+Nod7iEKb5qszAr7aX3evWrzGXrbwWf1O+OmEc3PyjVuX216z/XxmkHQ5uyN5gKM9G0mwEf86lDajIzSQ==", "keyname"=>"v苗ぁkんば"}
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 25ms (Views: 24.2ms)
+
+
+Started POST "/reciple/food_join" for 127.0.0.1 at 2018-01-18 10:59:13 +0900
+Processing by RecipleController#food_join as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iFf8VsFwQIca6Y0xhqjo3PDSR0quHWetQ0RU9lhiuLiK1AHQm2WC1KEX9TIy21iDYr03jNRlmUczsmJh3d4Ttg==", "keyname"=>"bsんsk"}
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 19ms (Views: 18.3ms)
+
+
+Started GET "/reciple/food_join" for 127.0.0.1 at 2018-01-18 11:03:49 +0900
+Processing by RecipleController#food_join as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (3.7ms)
+Completed 500 Internal Server Error in 9ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    36:           <% end %>
+    37:     </div>
+    38:     <div>
+    39:       <% @joins_box.each do |i| %>
+    40:       <%= link_to(i, :action => 'join_search') %>
+    41:       <% end %>
+    42:     </div>
+  
+app/views/reciple/search_recipe.html.erb:39:in `_app_views_reciple_search_recipe_html_erb__1326434664061370153_70193830045080'
+app/controllers/reciple_controller.rb:84:in `food_join'
+Started GET "/reciple/food_join" for 127.0.0.1 at 2018-01-18 11:08:08 +0900
+Processing by RecipleController#food_join as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 10ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    36:           <% end %>
+    37:     </div>
+    38:     <div>
+    39:       <% @joins_box.each do |i| %>
+    40:       <%= puts i %>
+    41:       <% end %>
+    42:     </div>
+  
+app/views/reciple/search_recipe.html.erb:39:in `_app_views_reciple_search_recipe_html_erb__1326434664061370153_70193845348560'
+app/controllers/reciple_controller.rb:84:in `food_join'
+Started GET "/reciple/food_join" for 127.0.0.1 at 2018-01-18 11:20:52 +0900
+Processing by RecipleController#food_join as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 67ms (Views: 65.7ms)
+
+
+Started POST "/reciple/food_join" for 127.0.0.1 at 2018-01-18 11:23:41 +0900
+Processing by RecipleController#food_join as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SVJWlTuciCgT3J0jvXYDVoEaHas5GXPwcCObqucYAmRL0asTYYlKe6gi5SAJBbMJE3VtbUNhjRoA1a09YqSpag==", "keyname"=>""}
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 31ms (Views: 29.0ms)
+
+
+Started POST "/reciple/food_join" for 127.0.0.1 at 2018-01-18 11:23:42 +0900
+Processing by RecipleController#food_join as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mUjQAsW1bO7bULFVR3ghjQXu1gJwEltaeo2wmA1VbOibyy2En6CuvWCuyVbzC5HSl4GmxApqpbAKe4YPiOnH5g==", "keyname"=>""}
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 35ms (Views: 33.8ms)
+
+
+Started POST "/reciple/recipe_search2" for 127.0.0.1 at 2018-01-18 11:23:44 +0900
+Processing by RecipleController#recipe_search2 as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vKrZW0miHA344JeiNFFsDk8Nhw7IlthEb1M94MuVhOi+KSTdE7feXkMe76GAItxR3WL3yLLuJq4fpQt3Tikv5g==", "keyname"=>""}
+Started POST "/reciple/recipe_search2" for 127.0.0.1 at 2018-01-18 11:23:45 +0900
+Processing by RecipleController#recipe_search2 as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vKrZW0miHA344JeiNFFsDk8Nhw7IlthEb1M94MuVhOi+KSTdE7feXkMe76GAItxR3WL3yLLuJq4fpQt3Tikv5g==", "keyname"=>""}
+Started POST "/reciple/recipe_search2" for 127.0.0.1 at 2018-01-18 11:23:46 +0900
+Processing by RecipleController#recipe_search2 as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vKrZW0miHA344JeiNFFsDk8Nhw7IlthEb1M94MuVhOi+KSTdE7feXkMe76GAItxR3WL3yLLuJq4fpQt3Tikv5g==", "keyname"=>""}
+  Rendering reciple/result_recipe.html.erb within layouts/application
+  Rendered reciple/result_recipe.html.erb within layouts/application (3.2ms)
+Completed 500 Internal Server Error in 4688ms
+
+
+  Rendering reciple/result_recipe.html.erb within layouts/application
+  
+  Rendering reciple/result_recipe.html.erb within layouts/application
+ActionView::Template::Error (nil is not a valid asset source):
+  Rendered reciple/result_recipe.html.erb within layouts/application (1.7ms)
+    12:         <h3>楽天レシピ</h3>
+    13:         <ul>
+    14:         <%  5.times do |i| %>
+    15:         <li><%= link_to(image_tag(@imgs_box[i]) + @titles_box[i], @urls_box[i], :target=>["_blank"]) %></li>
+    16:         <% end %>
+    17:       </div>
+    18:       <div class="cookpad_info">
+  Rendered reciple/result_recipe.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 3402ms
+
+
+  
+Completed 500 Internal Server Error in 2580ms
+
+
+  
+ActionView::Template::Error (nil is not a valid asset source):
+app/views/reciple/result_recipe.html.erb:15:in `block in _app_views_reciple_result_recipe_html_erb__3566535234552512273_70193843821240'
+app/views/reciple/result_recipe.html.erb:14:in `times'
+app/views/reciple/result_recipe.html.erb:14:in `_app_views_reciple_result_recipe_html_erb__3566535234552512273_70193843821240'
+app/controllers/reciple_controller.rb:78:in `recipe_search2'
+  
+    12:         <h3>楽天レシピ</h3>
+    13:         <ul>
+    14:         <%  5.times do |i| %>
+    15:         <li><%= link_to(image_tag(@imgs_box[i]) + @titles_box[i], @urls_box[i], :target=>["_blank"]) %></li>
+    16:         <% end %>
+    17:       </div>
+    18:       <div class="cookpad_info">
+ActionView::Template::Error (nil is not a valid asset source):
+  
+    12:         <h3>楽天レシピ</h3>
+    13:         <ul>
+    14:         <%  5.times do |i| %>
+    15:         <li><%= link_to(image_tag(@imgs_box[i]) + @titles_box[i], @urls_box[i], :target=>["_blank"]) %></li>
+    16:         <% end %>
+    17:       </div>
+    18:       <div class="cookpad_info">
+  
+app/views/reciple/result_recipe.html.erb:15:in `block in _app_views_reciple_result_recipe_html_erb__3566535234552512273_70193843821240'
+app/views/reciple/result_recipe.html.erb:14:in `times'
+app/views/reciple/result_recipe.html.erb:14:in `_app_views_reciple_result_recipe_html_erb__3566535234552512273_70193843821240'
+app/controllers/reciple_controller.rb:78:in `recipe_search2'
+app/views/reciple/result_recipe.html.erb:15:in `block in _app_views_reciple_result_recipe_html_erb__3566535234552512273_70193843821240'
+app/views/reciple/result_recipe.html.erb:14:in `times'
+app/views/reciple/result_recipe.html.erb:14:in `_app_views_reciple_result_recipe_html_erb__3566535234552512273_70193843821240'
+app/controllers/reciple_controller.rb:78:in `recipe_search2'
+Started GET "/reciple/food_join" for 127.0.0.1 at 2018-01-18 11:23:52 +0900
+Processing by RecipleController#food_join as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 21ms (Views: 20.7ms)
+
+
+Started GET "/reciple/food_join" for 127.0.0.1 at 2018-01-18 11:28:16 +0900
+  
+SyntaxError (/Users/satoukai/Desktop/Reciple_git/app/controllers/reciple_controller.rb:4: syntax error, unexpected '{', expecting keyword_then or ';' or '\n'
+/Users/satoukai/Desktop/Reciple_git/app/controllers/reciple_controller.rb:83: syntax error, unexpected '}', expecting keyword_end
+    } else {
+     ^
+/Users/satoukai/Desktop/Reciple_git/app/controllers/reciple_controller.rb:85: syntax error, unexpected '}', expecting keyword_end):
+  
+app/controllers/reciple_controller.rb:4: syntax error, unexpected '{', expecting keyword_then or ';' or '\n'
+app/controllers/reciple_controller.rb:83: syntax error, unexpected '}', expecting keyword_end
+app/controllers/reciple_controller.rb:85: syntax error, unexpected '}', expecting keyword_end
+Started GET "/reciple/food_join" for 127.0.0.1 at 2018-01-18 11:30:19 +0900
+Processing by RecipleController#food_join as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 29ms (Views: 28.0ms)
+
+
+Started POST "/reciple/recipe_search2" for 127.0.0.1 at 2018-01-18 11:30:23 +0900
+Processing by RecipleController#recipe_search2 as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ll+xtsX1HnjxVAYQVgvNKe5SpGpg5bOvR/pntjF5Zu2U3Ewwn+DcK0qqfhPieH12fD3UrBqdTUU3DFEhtMXN4w==", "keyname"=>""}
+No template found for RecipleController#recipe_search2, rendering head :no_content
+Completed 204 No Content in 53ms
+
+
+Started POST "/reciple/recipe_search2" for 127.0.0.1 at 2018-01-18 11:30:28 +0900
+Processing by RecipleController#recipe_search2 as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ll+xtsX1HnjxVAYQVgvNKe5SpGpg5bOvR/pntjF5Zu2U3Ewwn+DcK0qqfhPieH12fD3UrBqdTUU3DFEhtMXN4w==", "keyname"=>""}
+No template found for RecipleController#recipe_search2, rendering head :no_content
+Completed 204 No Content in 50ms
+
+
+Started POST "/reciple/recipe_search2" for 127.0.0.1 at 2018-01-18 11:30:29 +0900
+Processing by RecipleController#recipe_search2 as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ll+xtsX1HnjxVAYQVgvNKe5SpGpg5bOvR/pntjF5Zu2U3Ewwn+DcK0qqfhPieH12fD3UrBqdTUU3DFEhtMXN4w==", "keyname"=>""}
+No template found for RecipleController#recipe_search2, rendering head :no_content
+Completed 204 No Content in 51ms
+
+
+Started POST "/reciple/recipe_search2" for 127.0.0.1 at 2018-01-18 11:30:29 +0900
+Processing by RecipleController#recipe_search2 as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ll+xtsX1HnjxVAYQVgvNKe5SpGpg5bOvR/pntjF5Zu2U3Ewwn+DcK0qqfhPieH12fD3UrBqdTUU3DFEhtMXN4w==", "keyname"=>""}
+No template found for RecipleController#recipe_search2, rendering head :no_content
+Completed 204 No Content in 50ms
+
+
+Started POST "/reciple/recipe_search2" for 127.0.0.1 at 2018-01-18 11:30:34 +0900
+Processing by RecipleController#recipe_search2 as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ll+xtsX1HnjxVAYQVgvNKe5SpGpg5bOvR/pntjF5Zu2U3Ewwn+DcK0qqfhPieH12fD3UrBqdTUU3DFEhtMXN4w==", "keyname"=>"カレー"}
+  Rendering reciple/result_recipe.html.erb within layouts/application
+  Rendered reciple/result_recipe.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 1994ms (Views: 18.9ms)
+
+
+Started GET "/reciple/stylesheets/normalize.css" for 127.0.0.1 at 2018-01-18 11:30:36 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/reciple/stylesheets/normalize.css"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `call'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/reciple/food_join" for 127.0.0.1 at 2018-01-18 11:30:44 +0900
+Processing by RecipleController#food_join as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ll+xtsX1HnjxVAYQVgvNKe5SpGpg5bOvR/pntjF5Zu2U3Ewwn+DcK0qqfhPieH12fD3UrBqdTUU3DFEhtMXN4w==", "keyname"=>""}
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 23ms (Views: 22.2ms)
+
+
+Started POST "/reciple/food_join" for 127.0.0.1 at 2018-01-18 11:30:45 +0900
+Processing by RecipleController#food_join as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zIXgLFIRJxUBWqvGSZay4MISs+UwzlrlAkJxSQlg3WDOBh2qCATlRrqk08X95QK/UH3DI0q2pA9ytEfejNx2bg==", "keyname"=>""}
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 23ms (Views: 22.6ms)
+
+
+Started POST "/reciple/recipe_search2" for 127.0.0.1 at 2018-01-18 11:30:46 +0900
+Processing by RecipleController#recipe_search2 as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"f76NvSOBvXm9ZREI8yK1uzSFHLrvsPCmRuzM2ENm5a19PXA7eZR/KgabaQtHUQXkpupsfJXIDkw2GvpPxtpOow==", "keyname"=>""}
+No template found for RecipleController#recipe_search2, rendering head :no_content
+Completed 204 No Content in 50ms
+
+
+Started POST "/reciple/recipe_search2" for 127.0.0.1 at 2018-01-18 11:30:47 +0900
+Processing by RecipleController#recipe_search2 as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"f76NvSOBvXm9ZREI8yK1uzSFHLrvsPCmRuzM2ENm5a19PXA7eZR/KgabaQtHUQXkpupsfJXIDkw2GvpPxtpOow==", "keyname"=>""}
+No template found for RecipleController#recipe_search2, rendering head :no_content
+Completed 204 No Content in 53ms
+
+
+Started GET "/reciple/food_join" for 127.0.0.1 at 2018-01-18 11:36:23 +0900
+Processing by RecipleController#food_join as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 28ms (Views: 20.8ms)
+
+
+Started POST "/reciple/food_join" for 127.0.0.1 at 2018-01-18 11:36:37 +0900
+Processing by RecipleController#food_join as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ctW5HoyN36aZCfoZ6M2hNHdHng6lKAgbf3ZJ0i5K8hNwVkSY1pgd9SL3ghpcvhFr5SjuyN9Q9vEPgH9Fq/ZZHQ==", "keyname"=>"カレー"}
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 23ms (Views: 22.4ms)
+
+
+Started GET "/reciple/food_join" for 127.0.0.1 at 2018-01-18 11:36:39 +0900
+Processing by RecipleController#food_join as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 24ms (Views: 23.0ms)
+
+
+Started GET "/reciple/food_join" for 127.0.0.1 at 2018-01-18 11:36:40 +0900
+Processing by RecipleController#food_join as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 28ms (Views: 27.1ms)
+
+
+Started GET "/reciple/food_join" for 127.0.0.1 at 2018-01-18 11:37:04 +0900
+Processing by RecipleController#food_join as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 37ms (Views: 36.9ms)
+
+
+Started GET "/reciple/food_join" for 127.0.0.1 at 2018-01-18 11:37:07 +0900
+Processing by RecipleController#food_join as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 26ms (Views: 22.0ms)
+
+
+Started POST "/reciple/food_join" for 127.0.0.1 at 2018-01-18 11:37:12 +0900
+Processing by RecipleController#food_join as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CjY2WUsJrNR2dFIfFtuAnyi/JlGc0nIFY83KLfsCIK0ItcvfERxuh82KKhyiqDDAutBWl+aqjO8TO/y6fr6Low==", "keyname"=>"カレー"}
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 21ms (Views: 19.8ms)
+
+
+Started POST "/reciple/food_join" for 127.0.0.1 at 2018-01-18 11:37:17 +0900
+Processing by RecipleController#food_join as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0GvvMeO0OxzITAxL3VwAJs9mEfzoLjRz9VcrXwxRuj7S6BK3uaH5T3OydEhpL7B5XQlhOpJWypmFoR3Iie0RMA==", "keyname"=>"うどん"}
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 25ms (Views: 24.3ms)
+
+
+Started GET "/reciple/food_join" for 127.0.0.1 at 2018-01-18 11:37:19 +0900
+Processing by RecipleController#food_join as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 24ms (Views: 23.7ms)
+
+
+Started GET "/reciple/food_join" for 127.0.0.1 at 2018-01-18 11:37:20 +0900
+Processing by RecipleController#food_join as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 28ms (Views: 26.9ms)
+
+
+Started GET "/reciple/food_join" for 127.0.0.1 at 2018-01-18 11:37:21 +0900
+Processing by RecipleController#food_join as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 39ms (Views: 38.3ms)
+
+
+Started GET "/reciple/food_join" for 127.0.0.1 at 2018-01-18 11:37:22 +0900
+Processing by RecipleController#food_join as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 27ms (Views: 26.4ms)
+
+
+Started GET "/reciple/food_join" for 127.0.0.1 at 2018-01-18 11:37:22 +0900
+Processing by RecipleController#food_join as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 25ms (Views: 24.8ms)
+
+
+Started GET "/reciple/food_join" for 127.0.0.1 at 2018-01-18 11:37:23 +0900
+Processing by RecipleController#food_join as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 28ms (Views: 27.3ms)
+
+
+Started GET "/reciple/food_join" for 127.0.0.1 at 2018-01-18 11:37:24 +0900
+Processing by RecipleController#food_join as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 26ms (Views: 25.5ms)
+
+
+Started GET "/reciple/food_join" for 127.0.0.1 at 2018-01-18 11:37:30 +0900
+Processing by RecipleController#food_join as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 30ms (Views: 29.7ms)
+
+
+Started GET "/reciple/food_join" for 127.0.0.1 at 2018-01-18 11:38:16 +0900
+Processing by RecipleController#food_join as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 20ms (Views: 19.4ms)
+
+
+Started GET "/reciple/join_search" for 127.0.0.1 at 2018-01-18 11:38:18 +0900
+Processing by RecipleController#join_search as HTML
+  Rendering reciple/result_recipe.html.erb within layouts/application
+  Rendered reciple/result_recipe.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 3661ms
+
+
+  
+ActionView::Template::Error (nil is not a valid asset source):
+    12:         <h3>楽天レシピ</h3>
+    13:         <ul>
+    14:         <%  5.times do |i| %>
+    15:         <li><%= link_to(image_tag(@imgs_box[i]) + @titles_box[i], @urls_box[i], :target=>["_blank"]) %></li>
+    16:         <% end %>
+    17:       </div>
+    18:       <div class="cookpad_info">
+  
+app/views/reciple/result_recipe.html.erb:15:in `block in _app_views_reciple_result_recipe_html_erb__3566535234552512273_70193814811680'
+app/views/reciple/result_recipe.html.erb:14:in `times'
+app/views/reciple/result_recipe.html.erb:14:in `_app_views_reciple_result_recipe_html_erb__3566535234552512273_70193814811680'
+app/controllers/reciple_controller.rb:169:in `join_search'
+Started GET "/reciple/food_join" for 127.0.0.1 at 2018-01-18 11:38:24 +0900
+Processing by RecipleController#food_join as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 23ms (Views: 22.4ms)
+
+
+Started GET "/reciple/food_join" for 127.0.0.1 at 2018-01-18 11:38:51 +0900
+Processing by RecipleController#food_join as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 8ms
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"recipe_search", :controller=>"reciple"}):
+    37:     </div>
+    38:     <div>
+    39:       <% 10.times do |i| %>
+    40:       <%= link_to(@joins_box[i], :action => 'recipe_search') %>
+    41:       <% end %>
+    42:     </div>
+    43: </body>
+  
+app/views/reciple/search_recipe.html.erb:40:in `block in _app_views_reciple_search_recipe_html_erb__1326434664061370153_70193844656080'
+app/views/reciple/search_recipe.html.erb:39:in `times'
+app/views/reciple/search_recipe.html.erb:39:in `_app_views_reciple_search_recipe_html_erb__1326434664061370153_70193844656080'
+app/controllers/reciple_controller.rb:91:in `food_join'
+Started GET "/reciple/food_join" for 127.0.0.1 at 2018-01-18 11:39:10 +0900
+Processing by RecipleController#food_join as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 22ms (Views: 21.7ms)
+
+
+Started POST "/reciple/food_join" for 127.0.0.1 at 2018-01-18 11:39:19 +0900
+Processing by RecipleController#food_join as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wEsM8nHsfYpYkgYopi7MWixsFHbstyr5c9TfcacuaE3CyPF0K/m/2eNsfisSXXwFvgNksJbP1BMDIunmIpLDQw==", "keyname"=>"カレー"}
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 23ms (Views: 22.2ms)
+
+
+Started GET "/reciple/recipe_search2" for 127.0.0.1 at 2018-01-18 11:39:20 +0900
+Processing by RecipleController#recipe_search2 as HTML
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `length' for nil:NilClass):
+  
+app/controllers/reciple_controller.rb:4:in `recipe_search2'
+Started GET "/reciple/food_join" for 127.0.0.1 at 2018-01-18 11:39:29 +0900
+Processing by RecipleController#food_join as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 38ms (Views: 37.1ms)
+
+
+Started GET "/reciple/food_join" for 127.0.0.1 at 2018-01-18 11:40:50 +0900
+Processing by RecipleController#food_join as HTML
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `push' for nil:NilClass):
+  
+app/controllers/reciple_controller.rb:90:in `food_join'
+Started GET "/reciple/food_join" for 127.0.0.1 at 2018-01-18 11:41:02 +0900
+Processing by RecipleController#food_join as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 47ms (Views: 45.5ms)
+
+
+Started POST "/reciple/food_join" for 127.0.0.1 at 2018-01-18 11:41:08 +0900
+Processing by RecipleController#food_join as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"F14D8hFfW5PLLOCDoUlKWDK1ndUiagAHevXJ6YF9uLMV3f50S0qZwHDSmIAVOvoHoNrtE1gS/u0KA/9+BMETvQ==", "keyname"=>"カレー"}
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 28ms (Views: 26.8ms)
+
+
+Started GET "/reciple/recipe_search2" for 127.0.0.1 at 2018-01-18 11:41:10 +0900
+Processing by RecipleController#recipe_search2 as HTML
+Completed 500 Internal Server Error in 2ms
+
+
+  
+NoMethodError (undefined method `length' for nil:NilClass):
+  
+app/controllers/reciple_controller.rb:4:in `recipe_search2'
+Started GET "/reciple/recipe_search2" for 127.0.0.1 at 2018-01-18 11:41:26 +0900
+Processing by RecipleController#recipe_search2 as HTML
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `length' for nil:NilClass):
+  
+app/controllers/reciple_controller.rb:4:in `recipe_search2'
+Started GET "/reciple/recipe_search2" for 127.0.0.1 at 2018-01-18 11:42:04 +0900
+Processing by RecipleController#recipe_search2 as HTML
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `length' for nil:NilClass):
+  
+app/controllers/reciple_controller.rb:4:in `recipe_search2'
+Started GET "/reciple/recipe_search2" for 127.0.0.1 at 2018-01-18 11:42:07 +0900
+Processing by RecipleController#recipe_search2 as HTML
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NoMethodError (undefined method `length' for nil:NilClass):
+  
+app/controllers/reciple_controller.rb:4:in `recipe_search2'
+Started GET "/reciple/food_join" for 127.0.0.1 at 2018-01-18 11:42:40 +0900
+Processing by RecipleController#food_join as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 19ms (Views: 18.2ms)
+
+
+Started POST "/reciple/food_join" for 127.0.0.1 at 2018-01-18 11:42:52 +0900
+Processing by RecipleController#food_join as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qp4qa6RGRkMTo8uZNyuU/OBYP1ynlGNYD2ew93act5ioHdft/lOEEKhds5qDWCSjcjdPmt3snbJ/kYZg8yAclg==", "keyname"=>"カレー"}
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 25ms (Views: 24.0ms)
+
+
+Started POST "/reciple/food_join" for 127.0.0.1 at 2018-01-18 11:42:55 +0900
+Processing by RecipleController#food_join as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iVeXV6F7quN+coyJ9rI34hZbNJNsu14WTctzf3KQnNmL1GrR+25osMWM9IpCwYe9hDREVRbDoPw9PUXo9yw31w==", "keyname"=>"うどん"}
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 23ms (Views: 21.8ms)
+
+
+Started POST "/reciple/food_join" for 127.0.0.1 at 2018-01-18 11:43:01 +0900
+Processing by RecipleController#food_join as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rfgWTqtlrelpCbT5mx+rOr3vHXE9P270W32l1Eggb2eve+vI8XBvutL3zPovbBtlL4Btt0dHkB4ri5NDzZzEaQ==", "keyname"=>""}
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 21ms (Views: 19.8ms)
+
+
+Started POST "/reciple/food_join" for 127.0.0.1 at 2018-01-18 11:43:02 +0900
+Processing by RecipleController#food_join as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xlBvA4+a9nEVDEjihRY1cjL/52Z09zcX6bXPD/T6CWbE05KF1Y80Iq7yMOExZYUtoJCXoA6Pyf2ZQ/mYcUaiaA==", "keyname"=>""}
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 21ms (Views: 20.5ms)
+
+
+Started POST "/reciple/recipe_search2" for 127.0.0.1 at 2018-01-18 11:43:05 +0900
+Processing by RecipleController#recipe_search2 as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CanOV5xu8R7atqaBZ5poqymf/Rzz5cCwbaMBwl9iT94LKjPRxnszTWFI3oLT6dj0u/CN2omdPlodVTdV2t7k0A==", "keyname"=>""}
+No template found for RecipleController#recipe_search2, rendering head :no_content
+Completed 204 No Content in 50ms
+
+
+Started POST "/reciple/recipe_search2" for 127.0.0.1 at 2018-01-18 11:43:10 +0900
+Processing by RecipleController#recipe_search2 as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CanOV5xu8R7atqaBZ5poqymf/Rzz5cCwbaMBwl9iT94LKjPRxnszTWFI3oLT6dj0u/CN2omdPlodVTdV2t7k0A==", "keyname"=>"カレー"}
+  Rendering reciple/result_recipe.html.erb within layouts/application
+  Rendered reciple/result_recipe.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 3023ms (Views: 26.6ms)
+
+
+Started GET "/reciple/stylesheets/normalize.css" for 127.0.0.1 at 2018-01-18 11:43:13 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/reciple/stylesheets/normalize.css"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `call'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/reciple/food_join" for 127.0.0.1 at 2018-01-18 11:43:15 +0900
+Processing by RecipleController#food_join as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 27ms (Views: 25.9ms)
+
+
+Started GET "/reciple/join_search" for 127.0.0.1 at 2018-01-18 11:43:16 +0900
+Processing by RecipleController#join_search as HTML
+  Rendering reciple/result_recipe.html.erb within layouts/application
+  Rendered reciple/result_recipe.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 4208ms
+
+
+  
+ActionView::Template::Error (nil is not a valid asset source):
+    12:         <h3>楽天レシピ</h3>
+    13:         <ul>
+    14:         <%  5.times do |i| %>
+    15:         <li><%= link_to(image_tag(@imgs_box[i]) + @titles_box[i], @urls_box[i], :target=>["_blank"]) %></li>
+    16:         <% end %>
+    17:       </div>
+    18:       <div class="cookpad_info">
+  
+app/views/reciple/result_recipe.html.erb:15:in `block in _app_views_reciple_result_recipe_html_erb__3566535234552512273_70193845680540'
+app/views/reciple/result_recipe.html.erb:14:in `times'
+app/views/reciple/result_recipe.html.erb:14:in `_app_views_reciple_result_recipe_html_erb__3566535234552512273_70193845680540'
+app/controllers/reciple_controller.rb:169:in `join_search'
+Started GET "/reciple/food_join" for 127.0.0.1 at 2018-01-18 11:43:22 +0900
+Processing by RecipleController#food_join as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 20ms (Views: 19.4ms)
+
+
+Started GET "/reciple/food_join" for 127.0.0.1 at 2018-01-18 11:44:12 +0900
+Processing by RecipleController#food_join as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 25ms (Views: 24.5ms)
+
+
+Started GET "/reciple/join_search" for 127.0.0.1 at 2018-01-18 11:44:14 +0900
+Processing by RecipleController#join_search as HTML
+  Rendering reciple/result_recipe.html.erb within layouts/application
+  Rendered reciple/result_recipe.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 2162ms
+
+
+  
+ActionView::Template::Error (nil is not a valid asset source):
+    12:         <h3>楽天レシピ</h3>
+    13:         <ul>
+    14:         <%  5.times do |i| %>
+    15:         <li><%= link_to(image_tag(@imgs_box[i]) + @titles_box[i], @urls_box[i], :target=>["_blank"]) %></li>
+    16:         <% end %>
+    17:       </div>
+    18:       <div class="cookpad_info">
+  
+app/views/reciple/result_recipe.html.erb:15:in `block in _app_views_reciple_result_recipe_html_erb__3566535234552512273_70193867696760'
+app/views/reciple/result_recipe.html.erb:14:in `times'
+app/views/reciple/result_recipe.html.erb:14:in `_app_views_reciple_result_recipe_html_erb__3566535234552512273_70193867696760'
+app/controllers/reciple_controller.rb:169:in `join_search'
+Started GET "/reciple/join_search" for 127.0.0.1 at 2018-01-18 11:46:13 +0900
+Processing by RecipleController#join_search as HTML
+  Rendering reciple/result_recipe.html.erb within layouts/application
+  Rendered reciple/result_recipe.html.erb within layouts/application (5.3ms)
+Completed 500 Internal Server Error in 2774ms
+
+
+  
+ActionView::Template::Error (nil is not a valid asset source):
+    12:         <h3>楽天レシピ</h3>
+    13:         <ul>
+    14:         <%  5.times do |i| %>
+    15:         <li><%= link_to(image_tag(@imgs_box[i]) + @titles_box[i], @urls_box[i], :target=>["_blank"]) %></li>
+    16:         <% end %>
+    17:       </div>
+    18:       <div class="cookpad_info">
+  
+app/views/reciple/result_recipe.html.erb:15:in `block in _app_views_reciple_result_recipe_html_erb__3566535234552512273_70193801504080'
+app/views/reciple/result_recipe.html.erb:14:in `times'
+app/views/reciple/result_recipe.html.erb:14:in `_app_views_reciple_result_recipe_html_erb__3566535234552512273_70193801504080'
+app/controllers/reciple_controller.rb:169:in `join_search'
+Started GET "/reciple/food_join" for 127.0.0.1 at 2018-01-18 11:46:33 +0900
+Processing by RecipleController#food_join as HTML
+  Rendering reciple/search_recipe.html.erb within layouts/application
+  Rendered reciple/search_recipe.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 6ms
+
+
+  
+SyntaxError (/Users/satoukai/Desktop/Reciple_git/app/views/reciple/search_recipe.html.erb:40: syntax error, unexpected =>, expecting '}'
+....append=( link_to i {:action => 'join_search'} );@output_buf...
+...                               ^):
+  
+app/views/reciple/search_recipe.html.erb:40: syntax error, unexpected =>, expecting '}'
+app/controllers/reciple_controller.rb:91:in `food_join'
